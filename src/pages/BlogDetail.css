@@ -1,0 +1,143 @@
+.blog-detail-page {
+  padding: 40px 0 80px;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--pink-dark);
+  font-weight: 600;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover {
+  color: var(--pink-accent);
+  transform: translateX(-4px);
+}
+
+.post-content {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.post-header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--pink-light);
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.post-date {
+  font-size: 13px;
+  color: var(--text-light);
+  background: var(--pink-light);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.post-author {
+  font-size: 13px;
+  color: var(--purple-main);
+  font-weight: 600;
+}
+
+.post-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--pink-dark);
+  line-height: 1.3;
+}
+
+.post-body {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--text-dark);
+}
+
+.post-body p {
+  margin-bottom: 16px;
+}
+
+.post-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Comments Section */
+.comments-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.comments-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--pink-dark);
+  margin-bottom: 24px;
+}
+
+.comment-form {
+  margin-bottom: 30px;
+}
+
+.login-prompt {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  color: var(--text-light);
+}
+
+.login-prompt a {
+  font-weight: 600;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.comment-card {
+  padding: 20px;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.comment-author {
+  font-weight: 700;
+  color: var(--pink-dark);
+  font-size: 14px;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: var(--text-light);
+}
+
+.comment-body {
+  color: var(--text-dark);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.no-comments {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .post-title {
+    font-size: 1.8rem;
+  }
+}

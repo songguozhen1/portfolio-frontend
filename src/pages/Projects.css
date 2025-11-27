@@ -1,0 +1,18 @@
+.projects-page {
+  min-height: 60vh;
+}
+
+.projects-hero {
+  padding: 60px 0 40px;
+}
+
+.projects-section {
+  padding: 0 0 80px;
+}
+
+.no-projects {
+  text-align: center;
+  padding: 60px;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}

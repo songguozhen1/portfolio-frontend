@@ -1,0 +1,23 @@
+.blog-page {
+  min-height: 60vh;
+}
+
+.blog-hero {
+  padding: 60px 0 40px;
+}
+
+.blog-section {
+  padding: 0 0 80px;
+}
+
+.no-posts {
+  text-align: center;
+  padding: 60px;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.blog-grid {
+  max-width: 900px;
+  margin: 0 auto;
+}
