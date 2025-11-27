@@ -4,8 +4,9 @@ A beautiful, iOS-inspired girly themed portfolio website built with React. This 
 
 ## Live Demo
 
-- **Frontend URL**: [Your deployed frontend URL]
-- **Backend API URL**: [Your deployed API URL]
+- **Frontend URL**: https://portfolio-frontend-zz0508s-projects.vercel.app
+- **Backend API URL**: https://portfolio-backend-gamma-blond.vercel.app
+- **Source Code**: https://github.com/songguozhen1/portfolio-frontend
 
 ## Features
 
@@ -94,8 +95,8 @@ frontend/
 
 1. Clone the repository
 ```bash
-git clone [your-repo-url]
-cd frontend
+git clone https://github.com/songguozhen1/portfolio-frontend.git
+cd portfolio-frontend
 ```
 
 2. Install dependencies
@@ -105,8 +106,9 @@ npm install
 
 3. Create a `.env` file in the root directory
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=http://localhost:5001/api
 ```
+**Note**: The backend API runs on port 5001 (not 5000) to avoid conflicts with macOS ControlCenter.
 
 4. Start the development server
 ```bash
@@ -114,6 +116,8 @@ npm run dev
 ```
 
 The app will be running at `http://localhost:5173`
+
+**Important**: Make sure the backend API is running before starting the frontend. See the [backend repository](https://github.com/songguozhen1/portfolio-backend) for setup instructions.
 
 ### Build for Production
 
@@ -127,7 +131,7 @@ The production files will be in the `dist` folder.
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `VITE_API_URL` | Backend API base URL | `http://localhost:5000/api` |
+| `VITE_API_URL` | Backend API base URL | `http://localhost:5001/api` (local) or `https://portfolio-backend-gamma-blond.vercel.app/api` (production) |
 
 ## Styling
 
